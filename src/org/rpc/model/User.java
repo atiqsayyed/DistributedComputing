@@ -1,4 +1,9 @@
 package org.rpc.model;
+/**
+ * @author
+ * Atiq Sayyed
+ * 13/02/2016
+ */
 
 public class User {
 

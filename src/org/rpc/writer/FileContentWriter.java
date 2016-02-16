@@ -1,4 +1,9 @@
 package org.rpc.writer;
+/**
+ * @author
+ * Atiq Sayyed
+ * 13/02/2016
+ */
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -8,7 +13,7 @@ public class FileContentWriter implements Writer {
   @Override public boolean write(String line, String filePath) {
     try {
        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true));
-       writer.write("\n"+line);
+      writer.write("\n"+line);
        writer.close();
       return true;
     } catch (IOException e) {
